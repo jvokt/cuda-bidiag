@@ -1,7 +1,3 @@
-# CSE 6230 Final Project #
-
-I run make to compile assuming all environment variables are set up. I then call qsub cuda.pbs to run the executable on the jinx cluster, assuming the MovieLens database is in the current directory under the name movielens_1M.mtx.
-
 ### CUDA Implementation of Golub-Kahan-Lanczos Bidiagonalization ###
 
 * Implemented the algorithm in CUDA, ran it on random examples, and ran it on the MovieLens database. 
